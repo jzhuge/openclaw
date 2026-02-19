@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+dist/
+
+# Test artifacts
+*.test.lance
+test-*.lance
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

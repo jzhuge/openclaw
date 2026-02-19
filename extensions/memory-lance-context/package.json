@@ -1,0 +1,23 @@
+{
+  "name": "@openclaw/memory-lance-context",
+  "version": "2026.2.16",
+  "description": "lance-context versioned memory for OpenClaw",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "0.34.48",
+    "openai": "^6.22.0"
+  },
+  "devDependencies": {
+    "openclaw": "workspace:*",
+    "vitest": "^1.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": "workspace:*"
+  }
+}

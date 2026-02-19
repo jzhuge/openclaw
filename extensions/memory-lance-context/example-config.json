@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    {
+      "id": "memory-lance-context",
+      "config": {
+        "embedding": {
+          "provider": "openai",
+          "apiKey": "${OPENAI_API_KEY}",
+          "model": "text-embedding-3-small"
+        },
+        "dbPath": "~/.openclaw/memory/lance-context",
+        "autoCapture": true,
+        "autoRecall": true,
+        "captureMaxChars": 500,
+        "autoSnapshot": false,
+        "enableBackgroundCompaction": false,
+        "compactionIntervalSecs": 300,
+        "compactionMinFragments": 5,
+        "compactionTargetRows": 1000000,
+        "pythonPath": "python3",
+        "bridgeTimeout": 30000
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# lance-context versioned memory backend
+lance-context>=0.1.0
